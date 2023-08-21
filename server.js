@@ -9,7 +9,6 @@ dbConnect();
 app.get('/', (req, res) => {
     res.json({msg : 'Hello World123!'});
   })
-  app.use(errorHandler);  
 app.listen(PORT, () => {
   console.log(`Example app listening on port `)
 }) 

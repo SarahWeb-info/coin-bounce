@@ -1,5 +1,5 @@
 const express = require('express');
-const authController = require('../controller/authController');
+// const authController = require('../controller/authController');
 // const blogController = require('../controller/blogController');
 // const commentController = require('../controller/commentController');
 // const auth = require('../middlewares/auth');
@@ -18,10 +18,10 @@ router.get('/test', (req, res) => {
 // // user
 
 // // register
-router.post('/register', authController.register);
+// router.post('/register', authController.register);
 
 // // login
-router.post('/login', authController.login);
+// router.post('/login', authController.login);
 
 // // logout
 // router.post('/logout', auth, authController.logout)
